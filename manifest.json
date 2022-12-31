@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Youtube Ad Blocker",
+    "description": "This extenstion allows you to easily get rid of any youtube ads",
+    "version": "1.0",
+
+    "permissions": [
+      "tabs",
+      "active_tab"
+    ],
+    "content_scripts": [{
+        "js": ["script.js"],
+        "runt_at":"document_idle",
+        "matches": ["<all_urls>"]
+    }]
+}
+  
