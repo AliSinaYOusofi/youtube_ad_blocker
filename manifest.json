@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 1,
   
     "name": "Youtube Ad Blocker",
     "description": "This extenstion allows you to easily get rid of any youtube ads",
